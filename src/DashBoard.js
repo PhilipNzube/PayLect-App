@@ -1,12 +1,16 @@
 import Logo from './images/20230918_124305 1.png';
 import DashboardImg from './images/Data Treemap.png';
-import TransactionImg from './images/Approvals App.png';
+import DashboardImg2 from './images/Data Treemap2.png';
+import TransactionImg from './images/Page-2.png';
+import TransactionImg2 from './images/Page-1.png';
 import CurrencyImg from './images/fluent_convert-range-24-filled.png';
+import CurrencyImg2 from './images/fluent_convert-range-24-filled2.png';
 import AnalyticsImg from './images/Chart Multiple.png';
-import SecurityImg from './images/Shield Keyhole.png';
+// import SecurityImg from './images/Shield Keyhole.png';
 import AccountImg from './images/People.png';
-import SupportImg from './images/Vector.png';
-import SettingsImg from './images/Settings.png';
+import AccountImg2 from './images/People2.png';
+// import SupportImg from './images/Vector.png';
+// import SettingsImg from './images/Settings.png';
 import LogOutImg from './images/Arrow Exit.png';
 import LeftArrowImg from './images/Chevron3.png';
 import RightArrowImg from './images/Chevron.png';
@@ -18,6 +22,7 @@ import WalletImg from './images/Group 47697.png';
 import BalanceImg from './images/Eye Off.png';
 import TransferImg from './images/Group 1453.png';
 import DepositImg from './images/Group 1452.png';
+import DepositImg2 from './images/Group 1452-1.png';
 import AnalysisImg from './images/Chevron2.png';
 import IncomeImg from './images/Card.png';
 import RightImg from './images/Right-Arrow 2.png';
@@ -28,8 +33,8 @@ import CardDesignImg2 from './images/Vector2.png';
 import CardDesignImg3 from './images/Chevron.png';
 import CardDesignImg4 from './images/Master card logo.png';
 import LogoImg from './images/20230915_121515 1.png';
-import ComingSoonImg from './images/Vector 3.png';
-import PhoneImg from './images/Circles Onboarding mu 1.png';
+// import ComingSoonImg from './images/Vector 3.png';
+// import PhoneImg from './images/Circles Onboarding mu 1.png';
 import BellImg from './images/notification 3d 1.png';
 import CloseImg from './images/password icons.png';
 // import DropDownImg from './images/chevron-down.png';
@@ -38,6 +43,23 @@ import RadioBoxImg2 from './images/Component 3.png';
 import PlaneLinesImg from './images/Vector 4.png';
 import PlaneImg from './images/Vector4.png';
 import SandwichMenuImg from './images/Group 211.png';
+import MoneySentImg from './images/Frame 1456.png';
+import SwapImg from './images/Page-3.png';
+import DropImg from './images/teenyicons_down-solid.png';
+import ProfilePic from './images/Ellipse 793.png';
+import AccountSettingsImg from './images/People3.png';
+import CardSettingsImg from './images/ion_card.png';
+import NotificationSettingsImg from './images/mingcute_notification-fill.png';
+import PasswordSettingsImg from './images/mdi_password.png';
+import SupportImg from './images/fluent_person-support-20-filled.png';
+import ContactUsImg from './images/ion_call.png';
+import TodayRateSettingsImg from './images/Vector5.png';
+import RefreshImg from './images/Frame 125.png';
+import PreviousArrowImg from './images/arrow-up-s-line 3.png';
+import NextArrowImg from './images/arrow-up-s-line 4.png';
+import USQImg from './images/mdi_password.png';
+import BVNSettingsImg from './images/mdi_password.png';
+
 import { useNavigate } from 'react-router-dom';
 
 export default function DashBoard() {
@@ -58,15 +80,6 @@ export default function DashBoard() {
             document.getElementById("DashTopSubSec3").style.display = "block";
             document.getElementById("FixedBar").style.display = "none";
         }
-
-        if (window.innerHeight > 649) {
-            document.getElementById("TransferPopUp").style.alignItems = "center";
-            document.getElementById("TransferPopUp2").style.alignItems = "center";
-        }
-        else if (window.innerHeight <= 649) {
-            document.getElementById("TransferPopUp").style.alignItems = "normal";
-            document.getElementById("TransferPopUp2").style.alignItems = "normal";
-        }
     });
 
 
@@ -84,6 +97,27 @@ export default function DashBoard() {
         document.getElementById("ModalActivator2").style.display = "block";
     }
 
+    const CloseModal4 = () => {
+        document.getElementById("ModalActivator4").style.display = "none";
+        document.getElementById("ModalActivator3").style.display = "block";
+    }
+
+    const CloseModal5 = () => {
+        document.getElementById("ModalActivator5").style.display = "none";
+    }
+
+    const CloseModal6 = () => {
+        document.getElementById("ModalActivator6").style.display = "none";
+    }
+
+    const CloseModal7 = () => {
+        document.getElementById("ModalActivator7").style.display = "none";
+    }
+
+    const CloseModal8 = () => {
+        document.getElementById("ModalActivator8").style.display = "none";
+    }
+
 
     const OpenModal1 = () => {
         document.getElementById("ModalActivator").style.display = "block";
@@ -97,6 +131,34 @@ export default function DashBoard() {
     const OpenModal3 = () => {
         document.getElementById("ModalActivator2").style.display = "none";
         document.getElementById("ModalActivator3").style.display = "block";
+    }
+
+    const OpenModal4 = () => {
+        document.getElementById("ModalActivator3").style.display = "none";
+        document.getElementById("ModalActivator4").style.display = "block";
+    }
+
+    const OpenModal5 = () => {
+        document.getElementById("ModalActivator4").style.display = "none";
+        document.getElementById("ModalActivator5").style.display = "block";
+    }
+
+    const OpenModal6 = () => {
+        document.getElementById("ModalActivator5").style.display = "none";
+        document.getElementById("ModalActivator6").style.display = "block";
+    }
+
+
+    const OpenModal7 = () => {
+        document.getElementById("ModalActivator6").style.display = "none";
+    }
+
+    const OpenModal8 = () => {
+        document.getElementById("ModalActivator7").style.display = "block";
+    }
+
+    const OpenModal9 = () => {
+        document.getElementById("ModalActivator8").style.display = "block";
     }
 
 
@@ -113,6 +175,106 @@ export default function DashBoard() {
         document.getElementById("FixedBar").style.display = "none";
     }
 
+    const GoToDashBoard = () => {
+        document.getElementById("DashBoardCon").style.background = "#fff";
+        document.getElementById("DashBoardCon").style.color = "#252424";
+        document.getElementById("TransactionCon").style.background = "none";
+        document.getElementById("TransactionCon").style.color = "#fff";
+        document.getElementById("CurrencyCon").style.background = "none";
+        document.getElementById("CurrencyCon").style.color = "#fff";
+        document.getElementById("AccountCon").style.background = "none";
+        document.getElementById("AccountCon").style.color = "#fff";
+        document.querySelector(".DashBoardImgClass2").style.display = "none";
+        document.querySelector(".DashBoardImgClass").style.display = "block";
+        document.querySelector(".TransactionImgClass").style.display = "block";
+        document.querySelector(".TransactionImgClass2").style.display = "none";
+        document.querySelector(".CurrencyImgClass").style.display = "block";
+        document.querySelector(".CurrencyImgClass2").style.display = "none";
+        document.querySelector(".AccountImgClass").style.display = "block";
+        document.querySelector(".AccountImgClass2").style.display = "none";
+        document.getElementById("MainSec").style.display = "flex";
+        document.getElementById("TransactionSec").style.display = "none";
+        document.getElementById("SwapcurrencySec").style.display = "none";
+        document.getElementById("AccountSec").style.display = "none";
+    }
+
+    const GoToTransaction = () => {
+        document.getElementById("DashBoardCon").style.background = "none";
+        document.getElementById("DashBoardCon").style.color = "#fff";
+        document.getElementById("TransactionCon").style.background = "#fff";
+        document.getElementById("TransactionCon").style.color = "#252424";
+        document.getElementById("CurrencyCon").style.background = "none";
+        document.getElementById("CurrencyCon").style.color = "#fff";
+        document.getElementById("AccountCon").style.background = "none";
+        document.getElementById("AccountCon").style.color = "#fff";
+        document.querySelector(".DashBoardImgClass2").style.display = "block";
+        document.querySelector(".DashBoardImgClass").style.display = "none";
+        document.querySelector(".TransactionImgClass").style.display = "none";
+        document.querySelector(".TransactionImgClass2").style.display = "block";
+        document.querySelector(".CurrencyImgClass").style.display = "block";
+        document.querySelector(".CurrencyImgClass2").style.display = "none";
+        document.querySelector(".AccountImgClass").style.display = "block";
+        document.querySelector(".AccountImgClass2").style.display = "none";
+        document.getElementById("MainSec").style.display = "none";
+        document.getElementById("TransactionSec").style.display = "flex";
+        document.getElementById("SwapcurrencySec").style.display = "none";
+        document.getElementById("AccountSec").style.display = "none";
+
+    }
+
+    const GoToSwapCurrency = () => {
+        document.getElementById("DashBoardCon").style.background = "none";
+        document.getElementById("DashBoardCon").style.color = "#fff";
+        document.getElementById("TransactionCon").style.background = "none";
+        document.getElementById("TransactionCon").style.color = "#fff";
+        document.getElementById("CurrencyCon").style.background = "#fff";
+        document.getElementById("CurrencyCon").style.color = "#252424";
+        document.getElementById("AccountCon").style.background = "none";
+        document.getElementById("AccountCon").style.color = "#fff";
+        document.querySelector(".DashBoardImgClass2").style.display = "block";
+        document.querySelector(".DashBoardImgClass").style.display = "none";
+        document.querySelector(".TransactionImgClass").style.display = "block";
+        document.querySelector(".TransactionImgClass2").style.display = "none";
+        document.querySelector(".CurrencyImgClass").style.display = "none";
+        document.querySelector(".CurrencyImgClass2").style.display = "block";
+        document.querySelector(".AccountImgClass").style.display = "block";
+        document.querySelector(".AccountImgClass2").style.display = "none";
+        document.getElementById("MainSec").style.display = "none";
+        document.getElementById("TransactionSec").style.display = "none";
+        document.getElementById("SwapcurrencySec").style.display = "flex";
+        document.getElementById("AccountSec").style.display = "none";
+    }
+
+
+    const GoToAccount = () => {
+        document.getElementById("DashBoardCon").style.background = "none";
+        document.getElementById("DashBoardCon").style.color = "#fff";
+        document.getElementById("TransactionCon").style.background = "none";
+        document.getElementById("TransactionCon").style.color = "#fff";
+        document.getElementById("CurrencyCon").style.background = "none";
+        document.getElementById("CurrencyCon").style.color = "#fff";
+        document.getElementById("AccountCon").style.background = "#fff";
+        document.getElementById("AccountCon").style.color = "#252424";
+        document.querySelector(".DashBoardImgClass2").style.display = "block";
+        document.querySelector(".DashBoardImgClass").style.display = "none";
+        document.querySelector(".TransactionImgClass").style.display = "block";
+        document.querySelector(".TransactionImgClass2").style.display = "none";
+        document.querySelector(".CurrencyImgClass").style.display = "block";
+        document.querySelector(".CurrencyImgClass2").style.display = "none";
+        document.querySelector(".AccountImgClass").style.display = "none";
+        document.querySelector(".AccountImgClass2").style.display = "block";
+        document.getElementById("MainSec").style.display = "none";
+        document.getElementById("TransactionSec").style.display = "none";
+        document.getElementById("SwapcurrencySec").style.display = "none";
+        document.getElementById("AccountSec").style.display = "flex";
+    }
+
+    setTimeout(() => {
+        document.getElementById("TransactionSec").style.display = "none";
+        document.getElementById("SwapcurrencySec").style.display = "none";
+        document.getElementById("AccountSec").style.display = "none";
+    }, 1000)
+
 
 
 
@@ -120,11 +282,11 @@ export default function DashBoard() {
         <>
             <div id="DashContainer">
                 <div id="SideBarDeactivator" onClick={CloseSideBar}></div>
-                <div id="ModalActivator">
-                    <div id="TransferPopUp">
+                <div id="ModalActivator" className="ModalActivatorClass">
+                    <div className="PopUp">
                         <div id="TransferModal">
                             <div id="TransferSec">
-                                <span id="TransferText">Transfer</span>
+                                <span id="ModalHeaderText">Transfer</span>
                                 <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal1} /></span>
                             </div>
 
@@ -159,11 +321,11 @@ export default function DashBoard() {
                 </div>
 
 
-                <div id="ModalActivator2">
-                    <div id="TransferPopUp2">
+                <div id="ModalActivator2" className="ModalActivatorClass">
+                    <div className="PopUp">
                         <div id="TransferModal2">
                             <div id="Transfer2Sec">
-                                <span id="Transfer2Text">Transfer to Bank</span>
+                                <span id="ModalHeaderText">Transfer to Bank</span>
                                 <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal2} /></span>
                             </div>
 
@@ -215,12 +377,12 @@ export default function DashBoard() {
                 </div>
 
 
-                <div id="ModalActivator3">
-                    <div id="TransferPopUp3">
+                <div id="ModalActivator3" className="ModalActivatorClass">
+                    <div className="PopUp">
                         <span id="Scroller"></span>
                         <div id="TransferModal3">
                             <div id="Transfer2Sec">
-                                <span id="Transfer2Text">Transfer to Bank</span>
+                                <span id="ModalHeaderText">Transfer to Bank</span>
                                 <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal3} /></span>
                             </div>
 
@@ -290,9 +452,173 @@ export default function DashBoard() {
                                     </div>
                                 </div>
 
-                                <div id="Transfer3Sec2Sub6">
+                                <div id="Transfer3Sec2Sub6" onClick={OpenModal4}>
                                     <span id="Transfer3Text12">Proceed</span>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div id="ModalActivator4" className="ModalActivatorClass">
+                    <div className="PopUp2">
+                        <div id="TransferModal4">
+                            <div id="ConfirmTransacSec">
+                                <span id="ModalHeaderText">Confirm Transaction</span>
+                                <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal4} /></span>
+                            </div>
+
+                            <div id="ConfirmTransacSecText">Transfer <span id="AmountText">XXXXX.XX</span> to <span id="AccountNameText">ACCOUNT HOLDER’S NAME</span>-<span id="AccountNumberText">ACCOUNT NUMBER</span>.</div>
+
+                            <div id="TransacPassword">
+                                <span id="TransacPasswordText">Enter your password to complete transfer.</span>
+                                <input name="TransacPasswordField" id="TransacPasswordField" type="text" />
+                            </div>
+
+                            <div id="TransacButtons">
+                                <div id="TransacButton1" onClick={CloseModal4}>
+                                    <span id="TransacButton1Text">Cancel</span>
+                                </div>
+
+                                <div id="TransacButton2" onClick={OpenModal5}>
+                                    <span id="TransacButton2Text">Submit</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="ModalActivator5" className="ModalActivatorClass">
+                    <div className="PopUp2">
+                        <div id="TransferModal4">
+                            <div id="ConfirmTransacSec2">
+                                <span id="ModalHeaderText"></span>
+                                <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal5} /></span>
+                            </div>
+
+                            <div id="MoneySent">
+                                <img id="MoneySentImg" src={MoneySentImg} alt="MoneySentImg" />
+                                <span id="MoneySentText">Money Sent!</span>
+                            </div>
+
+                            <div id="ConfirmTransacSecText">$<span id="AmountText">XXXXX.XX</span> sent to <span id="AccountNameText">ACCOUNT HOLDER’S NAME</span>-<span id="AccountNumberText">ACCOUNT NUMBER</span>.</div>
+
+                            <div id="TransacButtons">
+                                <div id="TransacButton1" onClick={CloseModal5}>
+                                    <span id="TransacButton1Text">Done</span>
+                                </div>
+
+                                <div id="TransacButton2" onClick={OpenModal6}>
+                                    <span id="TransacButton2Text">Receipt</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="ModalActivator6" className="ModalActivatorClass">
+                    <div className="PopUp2">
+                        <div id="TransferModal5">
+                            <div id="ConfirmTransacSec3">
+                                <span id="ModalHeaderText">Transfer . <span id="AccountNumberText" className="AccountNumberTextClass">0123456789</span> </span>
+                                <span><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal6} /></span>
+                            </div>
+
+
+                            <div id="SuccessSec">
+                                <div id="Date-Time-Money"><div id="DTM1"><span id="Day">8</span> <span id="Month">Sept</span> <span id="Year">2023</span> <span id="Hour">11</span>:<span id="Minute">57</span><span id="am-pm">pm</span></div><div id="DTM2">$<span id="AmountText">100,000</span></div></div>
+                                <div id="SuccessText"><span>Success</span></div>
+                            </div>
+
+                            <div id="TransactionDetails">
+                                <div id="AccountDetails">
+                                    Account<span id="BankName" className="ClassDesign">XXXXXXXXXX Bank Name</span>
+                                </div>
+
+                                <div id="AccountDetails">
+                                    Account name(Receiver)<span id="AccountNameText" className="ClassDesign">JOHN CIROMA OLAWALE</span>
+                                </div>
+
+                                <div id="AccountDetails">
+                                    Transfer fees<span id="NairaAmountText" className="ClassDesign">NGN 50.00</span>
+                                </div>
+
+                                <div id="AccountDetails">
+                                    Narration<span id="NarrationText" className="ClassDesign">Some Payment made up</span>
+                                </div>
+                            </div>
+
+                            <div id="DownloadButton" onClick={OpenModal7}>
+                                <span id="DownloadButtonText">Download Receipt</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div id="ModalActivator7" className="ModalActivatorClass">
+                    <div className="PopUp2">
+                        <div className="TransferModal6">
+                            <div className="CloseImgDiv"><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal7} /></div>
+                            <div id="SettingsModal">
+                                <div className="SettingsModalButton" onClick={OpenModal9}><img className="SettingsModalButtonImg" src={AccountSettingsImg} alt="ProfileSettingsImg" /><span className="SettingsModalButtonText">Profile Settings</span></div>
+                                <div className="SettingsModalButton"><img className="SettingsModalButtonImg" src={USQImg} alt="USQImg" /><span className="SettingsModalButtonText">2FA: Update Security Question</span></div>
+                                <div className="SettingsModalButton"><img className="SettingsModalButtonImg" src={BVNSettingsImg} alt="BVNSettingsImg" /><span className="SettingsModalButtonText">BVN Settings</span></div>
+                                <div className="SettingsModalButton"><img className="SettingsModalButtonImg" src={NotificationSettingsImg} alt="NotificationSettingsImg" /><span className="SettingsModalButtonText">Notification Settings</span></div>
+                                <div className="SettingsModalButton"><img className="SettingsModalButtonImg" src={PasswordSettingsImg} alt="PasswordSettingsImg" /><span className="SettingsModalButtonText">Password Settings</span></div>
+                                <div className="SettingsModalButton"><img className="SettingsModalButtonImg" src={ContactUsImg} alt="ContactUsImg" /><span className="SettingsModalButtonText">Contact Us</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="ModalActivator8" className="ModalActivatorClass">
+                    <div className="PopUp2">
+                        <div className="TransferModal6">
+                            <div className="CloseImgDiv"><img alt='CloseImg' id="CloseImg" src={CloseImg} onClick={CloseModal8} /></div>
+                            <div id="BasicDataDiv">
+                                <div id="BasicDataSec1">
+                                    <div id="BasicHeader"><div id="BasicHeaderText">Basic Data</div> <div id="BasicHeaderText2">Change your avatar</div></div>
+                                    <div id="ChangePic">Tap to change</div>
+                                </div>
+
+                                <form id="BasicDataSec2">
+                                    <div id="BasicDataInputField">
+                                        <label className="BasicDataLabel" for="BasicDataFirstName">First Name</label>
+                                        <input className="BasicDataForm" type="text" id="BasicDataFirstName" placeholder='First Name' />
+                                    </div>
+
+                                    <div id="BasicDataInputField">
+                                        <label className="BasicDataLabel" for="BasicDataLastName">Last Name</label>
+                                        <input className="BasicDataForm" type="text" id="BasicDataLastName" placeholder='Last Name' />
+                                    </div>
+
+                                    <div id="BasicDataInputField">
+                                        <label className="BasicDataLabel" for="BasicDataEmail">Email Address</label>
+                                        <input className="BasicDataForm" type="email" id="BasicDataEmail" placeholder='Email' />
+                                    </div>
+
+                                    <div id="BasicDataInputField">
+                                        <label className="BasicDataLabel" for="BasicDataPhone">Phone Number</label>
+                                        <input className="BasicDataForm" type="number" id="BasicDataPhone" placeholder='Phone Number' />
+                                    </div>
+
+                                    <input id="BasicDataSubmitBut" type="submit" value="Update Profile" />
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -305,17 +631,17 @@ export default function DashBoard() {
                             <img id="LOGOImg" alt='LOGO' src={Logo} />
                         </div>
                         <div id="Sec2">
-                            <div id="DashBoardCon"><img alt='DashBoardImg' id="DashBoardImg" src={DashboardImg} /><span>Dashboard</span></div>
-                            <div id="TransactionCon"><img alt='TransactionImg' id="TransactionImg" src={TransactionImg} /><span>Transactions</span></div>
-                            <div id="CurrencyCon"><img alt='CurrencyImg' id="CurrencyImg" src={CurrencyImg} /><span>Swap Currency</span></div>
+                            <div id="DashBoardCon" onClick={GoToDashBoard}><img alt='DashBoardImg' id="DashBoardImg" className="DashBoardImgClass" src={DashboardImg} /><img alt='DashBoardImg' id="DashBoardImg" className="DashBoardImgClass2" src={DashboardImg2} /><span>Dashboard</span></div>
+                            <div id="TransactionCon" onClick={GoToTransaction}><img alt='TransactionImg' id="TransactionImg" className="TransactionImgClass" src={TransactionImg} /><img alt='TransactionImg' id="TransactionImg" className="TransactionImgClass2" src={TransactionImg2} /><span>Transactions</span></div>
+                            <div id="CurrencyCon" onClick={GoToSwapCurrency}><img alt='CurrencyImg' id="CurrencyImg" className="CurrencyImgClass" src={CurrencyImg} /><img alt='CurrencyImg' id="CurrencyImg" className="CurrencyImgClass2" src={CurrencyImg2} /><span>Swap Currency</span></div>
                             <div id="AnalyticsCon"><img alt='AnalyticsImg' id="AnalyticsImg" src={AnalyticsImg} /><span>Analytics </span></div>
-                            <div id="SecurityCon"><img alt='SecurityImg' id="SecurityImg" src={SecurityImg} /><span>Security</span></div>
-                            <div id="AccountCon"><img alt='AccountImg' id="AccountImg" src={AccountImg} /><span>Account</span></div>
-                            <div id="SupportCon"><img alt='SupportImg' id="SupportImg" src={SupportImg} /><span>Support</span></div>
+                            {/* <div id="SecurityCon"><img alt='SecurityImg' id="SecurityImg" src={SecurityImg} /><span>Security</span></div> */}
+                            <div id="AccountCon" onClick={GoToAccount}><img alt='AccountImg' id="AccountImg" className="AccountImgClass" src={AccountImg} /><img alt='AccountImg' id="AccountImg" className="AccountImgClass2" src={AccountImg2} /><span>Account</span></div>
+                            {/* <div id="SupportCon"><img alt='SupportImg' id="SupportImg" src={SupportImg} /><span>Support</span></div> */}
                         </div>
 
                         <div id="Sec3">
-                            <div id="SettingsCon"><img alt='SettingsImg' id="SettingsImg" src={SettingsImg} /><span>Settings</span></div>
+                            {/* <div id="SettingsCon"><img alt='SettingsImg' id="SettingsImg" src={SettingsImg} /><span>Settings</span></div> */}
                             <div id="LogOutCon" onClick={GoToSignIn}><img alt='LogOutImg' id="LogOutImg" src={LogOutImg} /><span>Log out</span></div>
                         </div>
                     </div>
@@ -383,45 +709,57 @@ export default function DashBoard() {
 
                             <div id="TransacParent">
                                 <div id="C3Cont2">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">10/03/23-12:09</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">10/03/23-12:09</span></span>
+                                    </span>
                                     <span id="GreenStat">+5,560</span>
                                 </div>
 
                                 <div id="C3Cont3">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Adeola Steve</span><span id="Date">05/03/23-16:59</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Adeola Steve</span><span id="Date">05/03/23-16:59</span></span>
+                                    </span>
                                     <span id="Stat">-1125</span>
                                 </div>
 
                                 <div id="C3Cont4">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Chris Zach</span><span id="Date">26/02/23-1:09</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Chris Zach</span><span id="Date">26/02/23-1:09</span></span>
+                                    </span>
                                     <div id="Stat">-21500</div>
                                 </div>
 
                                 <div id="C3Cont5">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">18/02/23-13:09</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">18/02/23-13:09</span></span>
+                                    </span>
                                     <span id="GreenStat">+4500</span>
                                 </div>
 
 
                                 <div id="C3Cont6">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Mike Charles</span><span id="Date">12/01/23-19:40</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Mike Charles</span><span id="Date">12/01/23-19:40</span></span>
+                                    </span>
                                     <span id="GreenStat">+91000</span>
                                 </div>
 
                                 <div id="C3Cont7">
-                                    <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                        <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                    <span id="NameAndDate"><span id="Name">Nikita Pearl</span><span id="Date">10/01/23-09:19</span></span>
+                                    <span id="ImgAndNameAndDate">
+                                        <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
+                                            <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
+                                        <span id="NameAndDate"><span id="Name">Nikita Pearl</span><span id="Date">10/01/23-09:19</span></span>
+                                    </span>
                                     <span id="Stat">-2400</span>
                                 </div>
                             </div>
@@ -453,12 +791,211 @@ export default function DashBoard() {
                         </div>
                         <div id="Card5">
                             <span id='Card5Sec'><img alt='LogoImg' id="LogoImg" src={LogoImg} /></span>
-                            <span id='Card5Sec2'><span id="FirstHalf">Our</span> <br /> <span id="LastHalf">mobile app<img src={PlaneLinesImg} alt="PaperPlaneLines" /><img id="PlaneImg" src={PlaneImg} alt="PlaneImg" /></span></span>
-                            <span id='Card5Sec3'><img alt='ComingSoonImg' id="ComingSoonImg" src={ComingSoonImg} /><span id="ComingSoonText">Coming Soon!</span></span>
+                            <span id='Card5Sec2'><div id="MobileAppText"><span id="FirstHalf">Our</span> <br /> <span id="LastHalf">mobile app</span></div><img src={PlaneLinesImg} alt="PaperPlaneLines" /><img id="PlaneImg" src={PlaneImg} alt="PlaneImg" /></span>
+                            <span id='Card5Sec3'>{/*<img alt='ComingSoonImg' id="ComingSoonImg" src={ComingSoonImg} />*/}<span id="ComingSoonText">Coming Soon!</span></span>
                             <span id='Card5Sec4'>
-                                <img alt='PhoneImg' id="PhoneImg" src={PhoneImg} />
+                                {/* <img alt='PhoneImg' id="PhoneImg" src={PhoneImg} /> */}
                                 <img alt='BellImg' id="BellImg" src={BellImg} />
                             </span>
+                        </div>
+                    </div>
+
+
+                    <div id="TransactionSec">
+                        <div id="TransOrder">
+                            <div id="TransSec1">
+                                <div id="TransHeader">
+                                    <div id="ReceipientName">Receipient Name</div>
+                                    <div id="Amount">Amount</div>
+                                    <div id="ReferenceID">ReferenceID</div>
+                                    <div id="Status">Status</div>
+                                    <div id="TransDate">Date</div>
+                                </div>
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Darrell Steward</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Kristin Watson</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Ronald Richards</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText3">Pending</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Floyd Miles</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText3">Pending</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Annette Black</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Arlene McCoy</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Marvin McKinney</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Theresa Webb</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Devon Lane</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+
+
+
+                                <div className="TransCont">
+                                    <div className="ReceipientNameSub">Dianne Russell</div>
+                                    <div className="AmountSub">$396.84</div>
+                                    <div className="ReferenceIDSub">0123456789</div>
+                                    <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
+                                    <div className="TransDateSub">8 Mar 2022 11:57pm</div>
+                                </div>
+                            </div>
+
+                            <div id="TransSec2">
+                                <div id="Wallet-AvailableBalance">
+                                    <div id="WalletText">
+                                        Wallet
+                                    </div>
+                                    <div id="AvailableBalanceText">
+                                        Available Balance<span id="USD">(USD)</span>
+                                    </div>
+                                </div>
+
+                                <div id="BalanceSec">
+                                    <div id="BalanceSubSec">
+                                        <div id="TransBalanceText">
+                                            50,000.<span id="TransBalanceText2">00</span>
+                                        </div>
+                                        <div id="Refresh">
+                                            Refresh
+                                            <img id="RefreshImg" src={RefreshImg} alt="RefreshImg" />
+                                        </div>
+                                    </div>
+                                    <div id="BalanceSubSec2">
+                                        <div id="DepositSec">
+                                            <img id="DepositSecImg" src={DepositImg2} alt="DepositImg" />
+                                            Deposit
+                                        </div>
+
+                                        <div id="BalanceTransferSec">
+                                            <img id="TransferSecImg" src={TransferImg} alt="TransferImg" />
+                                            Transfer
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="TransSec3">
+                            <img id="PreviousArrowImg" src={PreviousArrowImg} alt="PreviousArrowImg" />
+                            <div id="NumberingSec">
+                                <div id="Numbers">1</div>
+                                <div id="Numbers2">2</div>
+                                <div id="Numbers2">3</div>
+                                <div id="NumberElipses">.....</div>
+                                <div id="Numbers2">22</div>
+                            </div>
+
+                            <img id="NextArrowImg" src={NextArrowImg} alt="NextArrowImg" />
+                        </div>
+
+                    </div>
+
+
+                    <div id="SwapcurrencySec">
+                        <div id="From-To-Popup">
+                            <div id="SCSSec">
+                                FROM<div id="FromFieldDiv"><input id="FromField" type="text" placeholder="5,000" /><div id="Max">Max</div></div>
+                                <div id="AvailableBalance">
+                                    Available Balance: <span id="Balance">$50,000</span>
+                                </div>
+                            </div>
+
+                            <div id="SCSSec2">
+                                <img id="SwapDiv" src={SwapImg} alt="SwapImg" />
+                            </div>
+
+
+                            <div id="SCSSec3">
+                                TO<div id="ToFieldDiv"><input id="ToField" type="text" placeholder="3,990.25" /><img src={DropImg} alt="DropDown" id="Drop" /></div>
+                            </div>
+
+                            <div id="SwapCurrencyButton">Swap Currency</div>
+
+                        </div>
+                    </div>
+
+
+                    <div id="AnalyticsSec">
+
+                    </div>
+
+
+                    <div id="AccountSec">
+                        <div id="MyAccountText">My Account</div>
+                        <div id="ProfileSec"><img id="ProfilePic" src={ProfilePic} alt="ProfilePic" />Smith Layla</div>
+                        <div id="Settings">
+                            <div id="AccountSettings" onClick={OpenModal8}><img id="AccountSettingsImg" src={AccountSettingsImg} alt="AccountSettingsImg" /><span id="AccountSettingsText">My Account Settings</span></div>
+                            <div id="CardSettings"><img id="CardSettingsImg" src={CardSettingsImg} alt="CardSettingsImg" /><span id="CardSettingsText">Bank & Card Settings</span></div>
+                            <div id="NotificationSettings"><img id="NotificationSettingsImg" src={NotificationSettingsImg} alt="NotificationSettingsImg" /><span id="NotificationSettingsText">Notification Settings</span></div>
+                            <div id="PasswordSettings"><img id="PasswordSettingsImg" src={PasswordSettingsImg} alt="PasswordSettingsImg" /><span id="PasswordSettingsText">Password Settings</span></div>
+                            <div id="Support"><img id="SupportImg" src={SupportImg} alt="SupportImg" /><span id="SupportText">Support</span></div>
+                            <div id="ContactUs"><img id="ContactUsImg" src={ContactUsImg} alt="ContactUsImg" /><span id="ContactUsText">Contact Us</span></div>
+                            <div id="TodayRateSettings"><img id="TodayRateSettingsImg" src={TodayRateSettingsImg} alt="TodayRateSettingsImg" /><span id="TodayRateSettingsText">Today’s Rates</span></div>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background: linear-gradient(297deg, #2a5ee4 0%, #1433ff 100%);
-  width: 100%;
+  width: 95%;
   height: 100%;
 }
 
@@ -42,7 +42,7 @@ body {
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 650px;
+    height: 670px;
   }
 
 
@@ -366,6 +366,7 @@ body {
   #DashContainer {
     display: flex;
     flex-direction: row;
+    width: 85%;
   }
 
   #DashSideBar {
@@ -378,10 +379,10 @@ body {
 
   #DashMain {
     position: relative;
-    left: 18.5%;
+    left: 240px;
     background: #F5F4F7;
-    width: 80%;
-    height: 680px;
+    width: 100%;
+    height: 100%;
   }
 
   #Sec2 {
@@ -396,7 +397,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 100px;
+    top: 250px;
   }
 
   #DashBoardCon {
@@ -423,6 +424,7 @@ body {
     align-items: center;
     padding: 12px 17px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -438,6 +440,7 @@ body {
     align-items: center;
     padding: 12px 0px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -453,6 +456,7 @@ body {
     align-items: center;
     padding: 12px 45px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -469,6 +473,7 @@ body {
     align-items: center;
     padding: 12px 53px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -485,6 +490,7 @@ body {
     align-items: center;
     padding: 12.321px 53px 11.679px 18px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -499,6 +505,7 @@ body {
     align-items: center;
     padding: 7.321px 55px 15.677px 17px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -514,6 +521,7 @@ body {
     align-items: center;
     padding: 12px 60px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -529,6 +537,7 @@ body {
     align-items: center;
     padding: 12px 65px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -539,12 +548,12 @@ body {
 
   #DashTopSec {
     display: flex;
-    height: 26.477px;
     height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 80%;
-    flex-shrink: 0;
+    width: 95%;
+    align-self: stretch;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
   #DashTopSubSec {
@@ -580,7 +589,9 @@ body {
 
   #Notification {
     cursor: pointer;
+    height: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
     justify-content: center;
     border-radius: 7.565px;
@@ -592,6 +603,10 @@ body {
   }
 
   #Profile {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 13.239px;
     background: #FFF;
   }
@@ -614,7 +629,11 @@ body {
     row-gap: 20px;
     align-items: center;
     position: relative;
-    left: 1.5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
   }
 
   #Card1 {
@@ -640,13 +659,14 @@ body {
 
   #Card3 {
     display: flex;
+    width: 314px;
+    padding: 22px 24px;
     flex-direction: column;
-    row-gap: 20px;
-    width: 350px;
-    height: 420px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
     border-radius: 15px;
     background: #FFF;
-    flex-shrink: 0;
   }
 
   #Card4 {
@@ -842,11 +862,8 @@ body {
 
   #C3Cont {
     display: flex;
-    align-items: center;
-    position: relative;
-    top: 15px;
-    left: 10px;
-    column-gap: 140px;
+    align-self: stretch;
+    justify-content: space-between;
   }
 
   #C3ContText {
@@ -881,57 +898,52 @@ body {
     row-gap: 15px;
     position: relative;
     top: 20px;
+    width: 100%;
   }
 
   #C3Cont2 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #C3Cont3 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #C3Cont4 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont5 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont6 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont7 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #TransacImg {
@@ -947,11 +959,14 @@ body {
     bottom: 10px;
   }
 
+  #ImgAndNameAndDate {
+    display: flex;
+    align-items: center;
+  }
+
   #NameAndDate {
     display: flex;
     flex-direction: column;
-    position: relative;
-    right: 55px;
   }
 
   #Name {
@@ -1055,7 +1070,7 @@ body {
     border-radius: 15.384px;
     background: #FFF;
     position: relative;
-    right: 18px;
+    right: 5%;
     bottom: 23px;
   }
 
@@ -1178,7 +1193,7 @@ body {
     background: #FFF;
     position: relative;
     bottom: 25px;
-    left: 18px;
+    left: 9%;
   }
 
   #CardDesignImg5:hover {
@@ -1186,7 +1201,15 @@ body {
     box-shadow: 0 0 5px #000;
   }
 
+  #MobileAppText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   #FirstHalf {
+    position: relative;
+    top: 20px;
     color: #4A4A4A;
     font-size: 19.952px;
     font-style: normal;
@@ -1194,8 +1217,6 @@ body {
   }
 
   #LastHalf {
-    position: relative;
-    bottom: 30px;
     color: #4A4A4A;
     font-size: 19.952px;
     font-style: normal;
@@ -1204,58 +1225,64 @@ body {
 
   #PlaneImg {
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
   }
 
-  #BellImg {
-    position: relative;
-    bottom: 220px;
-    left: 15px;
-  }
 
   #ComingSoonText {
-    position: relative;
-    left: 15px;
-    bottom: 40px;
+    text-align: center;
     white-space: nowrap;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    background: url('./images/Vector\ 3.png') 0 0 no-repeat;
+    background-size: auto;
+    padding: 15px;
+    position: relative;
+    right: 5%;
   }
 
   #Card5Sec {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
     position: relative;
-    top: 15px;
-    left: 20px;
+    left: 30px;
   }
 
   #Card5Sec2 {
-    position: relative;
-    top: 10px;
-    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   #Card5Sec3 {
-    position: relative;
-    left: 20px;
-    bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 
 
   #Card5Sec4 {
     position: relative;
-    bottom: 20px;
-    left: 40px;
-    width: 0px;
-    height: 0px;
+    left: 20%;
+    width: 100%;
+    padding-bottom: 42px;
+    background: url('./images/Circles\ Onboarding\ mu\ 1.png') 0 0 no-repeat;
+    height: 100%;
   }
 
-  #ModalActivator {
+
+  .ModalActivatorClass {
     display: none;
   }
 
-  #TransferPopUp {
+  .PopUp {
     position: fixed;
     left: 0;
     right: 0;
@@ -1267,11 +1294,30 @@ body {
     z-index: 2;
   }
 
-  #TransferPopUp {
+  .PopUp {
     display: flex;
     justify-content: center;
     overflow-y: auto;
+  }
+
+
+  .PopUp2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(54, 46, 46, 0.80);
+    z-index: 2;
+  }
+
+  .PopUp2 {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    overflow-y: auto;
   }
 
   #TransferModal {
@@ -1289,9 +1335,10 @@ body {
   #TransferSec {
     display: flex;
     flex-direction: row;
-    column-gap: 330px;
     position: relative;
     top: 5px;
+    align-self: stretch;
+    justify-content: space-between;
   }
 
   #TransferSec2 {
@@ -1364,14 +1411,6 @@ body {
 
   #TransferSec6:hover {
     box-shadow: 0 0 5px rgba(42, 94, 228, 0.70);
-  }
-
-  #TransferText {
-    color: #3A3A3A;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-transform: capitalize;
   }
 
   #TransferText2 {
@@ -1452,28 +1491,6 @@ body {
   }
 
 
-  #ModalActivator2 {
-    display: none;
-  }
-
-  #TransferPopUp2 {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(54, 46, 46, 0.80);
-    z-index: 2;
-  }
-
-  #TransferPopUp2 {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-    align-items: center;
-  }
 
   #TransferModal2 {
     display: flex;
@@ -1490,12 +1507,13 @@ body {
   #Transfer2Sec {
     display: flex;
     flex-direction: row;
-    column-gap: 250px;
     position: relative;
     top: 5px;
+    align-self: stretch;
+    justify-content: space-between;
   }
 
-  #Transfer2Text {
+  #ModalHeaderText {
     color: #3A3A3A;
     font-size: 20px;
     font-style: normal;
@@ -1747,29 +1765,6 @@ body {
     font-weight: 400;
   }
 
-
-  #ModalActivator3 {
-    display: none;
-  }
-
-  #TransferPopUp3 {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(54, 46, 46, 0.80);
-    z-index: 2;
-  }
-
-  #TransferPopUp3 {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-  }
-
   #TransferModal3 {
     display: flex;
     align-items: center;
@@ -1934,19 +1929,26 @@ body {
 
   #Transfer3Sec2SubSub {
     display: flex;
-    width: 380px;
+    width: 100%;
     padding: 14px 16px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     background: #F6F6FF;
-    width: 380px;
     border: 0px;
     outline-color: #2743FD;
     color: rgb(58, 58, 58);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+  }
+
+  #Transfer3Sec2Sub {
+    width: 100%;
+  }
+
+  #Transfer3Text2 {
+    width: 92.5%;
   }
 
   #Transfer3Text2 ::placeholder {
@@ -2094,6 +2096,1289 @@ body {
   }
 
 
+
+  #ConfirmTransacSec {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #ConfirmTransacSec2 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #ConfirmTransacSec3 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #TransferModal4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+    height: 300px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+
+  #ConfirmTransacSecText {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  #TransacPassword {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+  }
+
+  #TransacPasswordText {
+    color: #6E638D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  #TransacPasswordField {
+    padding: 12px 16px;
+    border-radius: 4px;
+    background: #F6F6FF;
+    width: 92.5%;
+    border: 0px;
+    outline-color: #2743FD;
+    color: rgb(58, 58, 58);
+  }
+
+  #TransacButtons {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+
+
+
+  #TransacButton1 {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+  }
+
+  #TransacButton1:hover {
+    box-shadow: 0 0 5px #000;
+  }
+
+  #TransacButton2 {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #TransacButton2:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+  #TransacButton1Text {
+    color: #3F3951;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #TransacButton2Text {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #MoneySent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  #MoneySentImg {
+    padding: 8px;
+    border-radius: 84px;
+    background: #DBDBFF;
+  }
+
+  #MoneySentText {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+
+  .AccountNumberTextClass {
+    color: rgba(58, 58, 58, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #SuccessSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 190px;
+    width: 92.5%;
+    text-wrap: nowrap;
+  }
+
+  #Date-Time-Money {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #DTM1 {
+    color: #3A3A3A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #DTM2 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #SuccessText {
+    display: flex;
+    align-items: center;
+    color: #10A230;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background: #E8FDEC;
+  }
+
+
+  #TransferModal5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+    height: 450px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+  #DownloadButton {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #DownloadButton:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+
+  #DownloadButtonText {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #TransactionDetails {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 8px;
+    background: #F7F6F9;
+  }
+
+
+  #AccountDetails {
+    display: flex;
+    justify-content: space-between;
+    color: #6E638D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-wrap: nowrap;
+  }
+
+
+  .ClassDesign {
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .DashBoardImgClass2 {
+    display: none;
+  }
+
+  .TransactionImgClass2 {
+    display: none;
+  }
+
+  .CurrencyImgClass2 {
+    display: none;
+  }
+
+  .AccountImgClass2 {
+    display: none;
+  }
+
+
+
+
+  #SwapcurrencySec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes Scale-In {
+    0% {
+      transform: scale(0%);
+    }
+
+    100% {
+      transform: scale(100%);
+    }
+  }
+
+
+  #AccountSec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  #From-To-Popup {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    border-radius: 12px;
+    background: #FFF;
+  }
+
+  #SCSSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+    left: 15px;
+  }
+
+  #SCSSec2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #SCSSec3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #FromFieldDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #FromField {
+    width: 300px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 43px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    background: url('./images/solar_dollar-bold.png') 10px no-repeat #F6F6FF;
+  }
+
+
+
+  #ToFieldDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #ToField {
+    width: 200px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 93px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    background: url('./images/ant-design_pound-circle-filled.png') 10px no-repeat #F6F6FF;
+  }
+
+  #AvailableBalance {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: #DCDCDC;
+    width: 220px;
+    color: #767676;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #Balance {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #Max {
+    position: relative;
+    padding: 8px;
+    right: 60px;
+    border-radius: 12px;
+    background: #DCDCDC;
+    color: #3A3A3A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+  #SwapDiv {
+    padding: 10px;
+    border-radius: 176.923px;
+    background: #F6F6FF;
+  }
+
+  #Drop {
+    position: relative;
+    right: 355px;
+  }
+
+  #SwapCurrencyButton {
+    cursor: pointer;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 12px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #SwapCurrencyButton:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+  #MyAccountText {
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #ProfileSec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #ProfilePic {
+    width: 100px;
+  }
+
+  #Settings {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #AccountSettings {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #AccountSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #AccountSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+  #CardSettings {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #CardSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #CardSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+
+  #NotificationSettings {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #NotificationSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #NotificationSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+
+  #PasswordSettings {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #PasswordSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #PasswordSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+  #Support {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #Support:hover {
+    border: 1.5px solid #000;
+  }
+
+  #SupportText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+  #ContactUs {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #ContactUs:hover {
+    border: 1.5px solid #000;
+  }
+
+  #ContactUsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+  #TodayRateSettings {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #TodayRateSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #TodayRateSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+  #TransactionSec {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    overflow-x: scroll;
+    width: 95%;
+  }
+
+  #TransOrder {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+  }
+
+
+  #TransSec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 14.082px;
+    background: #FFF;
+    box-shadow: 0.939px -0.939px 0px 0px rgba(0, 0, 0, 0.08) inset;
+    text-wrap: nowrap;
+  }
+
+  #TransHeader {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-self: stretch;
+    justify-content: space-between;
+    box-shadow: 0px -0.939px 0px 0px #E4E4EF inset;
+  }
+
+  #HeaderDivider {
+    background: var(--White, #FFF);
+    box-shadow: 0px -0.939px 0px 0px #E4E4EF inset;
+  }
+
+  #ReceipientName {
+    display: flex;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    flex: 1 0 0;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #Amount {
+    display: flex;
+    width: 112.655px;
+    padding: 18.776px 45.062px;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  #ReferenceID {
+    display: flex;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #Status {
+    display: flex;
+    width: 127.676px;
+    padding: 18.776px 15.021px;
+    justify-content: center;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #TransDate {
+    display: flex;
+    width: 151.146px;
+    height: 56.328px;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    justify-content: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  .TransCont {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-self: stretch;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+  .ReceipientNameSub {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .AmountSub {
+    display: flex;
+    width: 112.655px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 45.062px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  .ReferenceIDSub {
+    display: flex;
+    width: 135.186px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  .StatusSub {
+    display: flex;
+    width: 127.676px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  .StatusSubText {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #FDE8E8;
+    color: #EA2E2E;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .StatusSubText2 {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #E8FDEC;
+    color: #10A230;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+
+  .StatusSubText3 {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #FDFBE8;
+    color: #A29410;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .TransDateSub {
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  #TransSec2 {
+    display: flex;
+    width: 250.658px;
+    padding: 18.776px 22.531px 22.531px 22.531px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 14.082px;
+    background: #FFF;
+    box-shadow: 0.939px -0.939px 0px 0px rgba(0, 0, 0, 0.08) inset;
+  }
+
+  #Wallet-AvailableBalance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37.552px;
+    text-wrap: nowrap;
+  }
+
+  #WalletText {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #AvailableBalanceText {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.075px;
+  }
+
+  #USD {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11.266px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #BalanceSec {
+    display: flex;
+    width: 250.658px;
+    padding: 15.021px 22.531px 22.531px 22.531px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30.041px;
+    background: #FFF;
+  }
+
+  #BalanceSubSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.51px;
+  }
+
+  #TransBalanceText {
+    color: #3F3951;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30.041px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+  }
+
+  #TransBalanceText2 {
+    color: #3F3951;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18.776px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #Refresh {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    color: #736CEE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #BalanceSubSec2 {
+    display: flex;
+    align-items: center;
+    gap: 30.041px;
+  }
+
+  #DepositSec {
+    display: flex;
+    width: 60.083px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.755px;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  #BalanceTransferSec {
+    display: flex;
+    width: 60.083px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.755px;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #DepositSecImg {
+    cursor: pointer;
+    display: flex;
+    padding: 11.266px;
+    align-items: flex-start;
+    gap: 9.388px;
+    border-radius: 56.328px;
+    background: rgba(115, 108, 238, 0.20);
+  }
+
+  #DepositSecImg:hover {
+    box-shadow: 0 0 2px #000;
+  }
+
+  #TransferSecImg {
+    cursor: pointer;
+    display: flex;
+    padding: 11.266px;
+    align-items: flex-start;
+    gap: 9.388px;
+    border-radius: 56.328px;
+    background: rgba(115, 108, 238, 0.20);
+  }
+
+  #TransferSecImg:hover {
+    box-shadow: 0 0 2px #000;
+  }
+
+
+  #TransSec3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #NumberingSec {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #PreviousArrowImg {
+    cursor: pointer;
+  }
+
+  #NextArrowImg {
+    cursor: pointer;
+  }
+
+  #Numbers {
+    cursor: pointer;
+    display: flex;
+    width: 36px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #736CEE;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #Numbers2 {
+    cursor: pointer;
+    display: flex;
+    width: 36px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: none;
+    color: #6E638D;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #Numbers2:hover {
+    background: #736cee81;
+  }
+
+  #NumberElipses {
+    display: flex;
+    align-items: center;
+    color: #6E638D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .TransferModal6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+
+  #SettingsModal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  .SettingsModalButton {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  .SettingsModalButton:hover {
+    border: 1.5px solid #000;
+  }
+
+  .SettingsModalButtonText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .CloseImgDiv {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  #BasicDataDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+  }
+
+  #BasicDataSec1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #BasicDataSec2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #BasicHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #BasicHeaderText {
+    color: #2743FD;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #BasicHeaderText2 {
+    color: #3A3A3A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #ChangePic {
+    color: #303030;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .BasicDataForm {
+    padding: 8px, 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    background: #E1E1E1;
+    border: none;
+    width: 300px;
+    height: 34px;
+    color: #3A3A3A;
+  }
+
+  .BasicDataLabel {
+    display: flex;
+    justify-content: flex-start;
+    color: #3A3A3A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+  #BasicDataInputField {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #BasicDataSubmitBut {
+    cursor: pointer;
+    background: #2743fd81;
+    width: 100%;
+    height: 44px;
+    padding: 8px, 10px, 8px, 10px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+  }
+
+
+  #BasicDataSubmitBut:hover {
+    background: #2743FD;
+  }
+
+
 }
 
 @media only screen and (max-width:1212px) {
@@ -2106,6 +3391,7 @@ body {
   #DashContainer {
     display: flex;
     flex-direction: row;
+    width: 85%;
   }
 
   #DashSideBar {
@@ -2118,10 +3404,10 @@ body {
 
   #DashMain {
     position: relative;
-    left: 23%;
+    left: 240px;
     background: #F5F4F7;
-    width: 75%;
-    height: 1200px;
+    width: 100%;
+    height: 100%;
   }
 
   #Sec2 {
@@ -2136,7 +3422,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 100px;
+    top: 190px;
   }
 
   #DashBoardCon {
@@ -2163,6 +3449,7 @@ body {
     align-items: center;
     padding: 12px 17px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2178,6 +3465,7 @@ body {
     align-items: center;
     padding: 12px 0px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2193,6 +3481,7 @@ body {
     align-items: center;
     padding: 12px 45px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2209,6 +3498,7 @@ body {
     align-items: center;
     padding: 12px 53px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2225,6 +3515,7 @@ body {
     align-items: center;
     padding: 12.321px 53px 11.679px 18px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2239,6 +3530,7 @@ body {
     align-items: center;
     padding: 7.321px 55px 15.677px 17px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2254,6 +3546,7 @@ body {
     align-items: center;
     padding: 12px 60px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2269,6 +3562,7 @@ body {
     align-items: center;
     padding: 12px 65px 12px 16px;
     column-gap: 20px;
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -2279,12 +3573,12 @@ body {
 
   #DashTopSec {
     display: flex;
-    height: 26.477px;
     height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 80%;
-    flex-shrink: 0;
+    width: 95%;
+    align-self: stretch;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
   #DashTopSubSec {
@@ -2320,7 +3614,9 @@ body {
 
   #Notification {
     cursor: pointer;
+    height: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
     justify-content: center;
     border-radius: 7.565px;
@@ -2332,6 +3628,10 @@ body {
   }
 
   #Profile {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 13.239px;
     background: #FFF;
   }
@@ -2354,18 +3654,22 @@ body {
     row-gap: 20px;
     align-items: center;
     position: relative;
-    left: 1.5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
   }
 
   #Card1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 20px;
     width: 350px;
     height: 180px;
     border-radius: 15.384px;
     background: url('./images/gradient\ 3-04\ 1.png') #1352F1;
-    flex-shrink: 0;
   }
 
   #Card2 {
@@ -2373,20 +3677,22 @@ body {
     height: 180px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     border-radius: 15px;
     background: #FFF;
-    flex-shrink: 0;
   }
 
   #Card3 {
     display: flex;
+    width: 314px;
+    padding: 22px 24px;
     flex-direction: column;
-    row-gap: 20px;
-    width: 350px;
-    height: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
     border-radius: 15px;
     background: #FFF;
-    flex-shrink: 0;
+    text-wrap: nowrap;
   }
 
   #Card4 {
@@ -2405,6 +3711,7 @@ body {
   #Card5 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 14px;
     width: 264px;
     height: 450px;
@@ -2423,6 +3730,7 @@ body {
   }
 
   #WalletText {
+    text-wrap: nowrap;
     color: #E0E9FF;
     font-size: 15.384px;
     font-style: normal;
@@ -2582,11 +3890,8 @@ body {
 
   #C3Cont {
     display: flex;
-    align-items: center;
-    position: relative;
-    top: 15px;
-    left: 10px;
-    column-gap: 140px;
+    align-self: stretch;
+    justify-content: space-between;
   }
 
   #C3ContText {
@@ -2621,57 +3926,52 @@ body {
     row-gap: 15px;
     position: relative;
     top: 20px;
+    width: 100%;
   }
 
   #C3Cont2 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #C3Cont3 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #C3Cont4 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont5 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont6 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
 
   #C3Cont7 {
     display: flex;
+    align-self: stretch;
     align-items: center;
-    position: relative;
-    left: 10px;
-    column-gap: 48px;
+    justify-content: space-between;
   }
 
   #TransacImg {
@@ -2687,11 +3987,14 @@ body {
     bottom: 10px;
   }
 
+  #ImgAndNameAndDate {
+    display: flex;
+    align-items: center;
+  }
+
   #NameAndDate {
     display: flex;
     flex-direction: column;
-    position: relative;
-    right: 55px;
   }
 
   #Name {
@@ -2795,7 +4098,7 @@ body {
     border-radius: 15.384px;
     background: #FFF;
     position: relative;
-    right: 18px;
+    right: 4%;
     bottom: 23px;
   }
 
@@ -2918,7 +4221,7 @@ body {
     background: #FFF;
     position: relative;
     bottom: 25px;
-    left: 18px;
+    left: 9%;
   }
 
   #CardDesignImg5:hover {
@@ -2926,7 +4229,15 @@ body {
     box-shadow: 0 0 5px #000;
   }
 
+  #MobileAppText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   #FirstHalf {
+    position: relative;
+    top: 20px;
     color: #4A4A4A;
     font-size: 19.952px;
     font-style: normal;
@@ -2934,8 +4245,6 @@ body {
   }
 
   #LastHalf {
-    position: relative;
-    bottom: 30px;
     color: #4A4A4A;
     font-size: 19.952px;
     font-style: normal;
@@ -2944,58 +4253,63 @@ body {
 
   #PlaneImg {
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
   }
 
-  #BellImg {
-    position: relative;
-    bottom: 220px;
-    left: 15px;
-  }
 
   #ComingSoonText {
-    position: relative;
-    left: 15px;
-    bottom: 40px;
+    text-align: center;
     white-space: nowrap;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    background: url('./images/Vector\ 3.png') 0 0 no-repeat;
+    background-size: auto;
+    padding: 15px;
+    position: relative;
+    right: 5%;
   }
 
   #Card5Sec {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
     position: relative;
-    top: 15px;
-    left: 20px;
+    left: 30px;
   }
 
   #Card5Sec2 {
-    position: relative;
-    top: 10px;
-    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   #Card5Sec3 {
-    position: relative;
-    left: 20px;
-    bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 
 
   #Card5Sec4 {
     position: relative;
-    bottom: 20px;
-    left: 40px;
-    width: 0px;
-    height: 0px;
+    left: 20%;
+    width: 100%;
+    padding-bottom: 42px;
+    background: url('./images/Circles\ Onboarding\ mu\ 1.png') 0 0 no-repeat;
+    height: 100%;
   }
 
-  #ModalActivator {
+  .ModalActivatorClass {
     display: none;
   }
 
-  #TransferPopUp {
+  .PopUp {
     position: fixed;
     left: 0;
     right: 0;
@@ -3007,11 +4321,30 @@ body {
     z-index: 2;
   }
 
-  #TransferPopUp {
+  .PopUp {
     display: flex;
     justify-content: center;
     overflow-y: auto;
+  }
+
+
+  .PopUp2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(54, 46, 46, 0.80);
+    z-index: 2;
+  }
+
+  .PopUp2 {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    overflow-y: auto;
   }
 
   #TransferModal {
@@ -3029,7 +4362,8 @@ body {
   #TransferSec {
     display: flex;
     flex-direction: row;
-    column-gap: 330px;
+    align-self: stretch;
+    justify-content: space-between;
     position: relative;
     top: 5px;
   }
@@ -3046,10 +4380,11 @@ body {
   #TransferSec3 {
     cursor: pointer;
     display: flex;
-    padding: 16px 60px;
+    padding: 16px 32px;
+    width: 80%;
     flex-direction: column;
     gap: 10px;
-    align-self: stretch;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(42, 94, 228, 0.70);
   }
@@ -3061,10 +4396,11 @@ body {
   #TransferSec4 {
     cursor: pointer;
     display: flex;
-    padding: 16px 60px;
+    padding: 16px 32px;
+    width: 80%;
     flex-direction: column;
     gap: 10px;
-    align-self: stretch;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(42, 94, 228, 0.70);
   }
@@ -3094,24 +4430,17 @@ body {
   #TransferSec6 {
     cursor: pointer;
     display: flex;
-    padding: 16px 60px;
+    padding: 16px 32px;
+    width: 80%;
     flex-direction: column;
     gap: 10px;
-    align-self: stretch;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(42, 94, 228, 0.70);
   }
 
   #TransferSec6:hover {
     box-shadow: 0 0 5px rgba(42, 94, 228, 0.70);
-  }
-
-  #TransferText {
-    color: #3A3A3A;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-transform: capitalize;
   }
 
   #TransferText2 {
@@ -3163,7 +4492,7 @@ body {
   #TransferText8 {
     position: relative;
     left: 37%;
-    bottom: 88px;
+    bottom: 72px;
     color: #FC0000;
     font-size: 10px;
     font-style: normal;
@@ -3192,28 +4521,6 @@ body {
   }
 
 
-  #ModalActivator2 {
-    display: none;
-  }
-
-  #TransferPopUp2 {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(54, 46, 46, 0.80);
-    z-index: 2;
-  }
-
-  #TransferPopUp2 {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-    align-items: center;
-  }
 
   #TransferModal2 {
     display: flex;
@@ -3230,12 +4537,13 @@ body {
   #Transfer2Sec {
     display: flex;
     flex-direction: row;
-    column-gap: 250px;
     position: relative;
     top: 5px;
+    align-self: stretch;
+    justify-content: space-between;
   }
 
-  #Transfer2Text {
+  #ModalHeaderText {
     color: #3A3A3A;
     font-size: 20px;
     font-style: normal;
@@ -3481,27 +4789,6 @@ body {
   }
 
 
-  #ModalActivator3 {
-    display: none;
-  }
-
-  #TransferPopUp3 {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(54, 46, 46, 0.80);
-    z-index: 2;
-  }
-
-  #TransferPopUp3 {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-  }
 
   #TransferModal3 {
     display: flex;
@@ -3667,19 +4954,26 @@ body {
 
   #Transfer3Sec2SubSub {
     display: flex;
-    width: 380px;
+    width: 100%;
     padding: 14px 16px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     background: #F6F6FF;
-    width: 380px;
     border: 0px;
     outline-color: #2743FD;
     color: rgb(58, 58, 58);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+  }
+
+  #Transfer3Sec2Sub {
+    width: 100%;
+  }
+
+  #Transfer3Text2 {
+    width: 92.5%;
   }
 
   #Transfer3Text2 ::placeholder {
@@ -3826,6 +5120,1291 @@ body {
   #RadioBoxImg2 {
     cursor: pointer;
   }
+
+
+  #ConfirmTransacSec {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #ConfirmTransacSec2 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #ConfirmTransacSec3 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+  }
+
+
+  #TransferModal4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+    height: 300px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+
+  #ConfirmTransacSecText {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  #TransacPassword {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+  }
+
+  #TransacPasswordText {
+    color: #6E638D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  #TransacPasswordField {
+    padding: 12px 16px;
+    border-radius: 4px;
+    background: #F6F6FF;
+    width: 92.5%;
+    border: 0px;
+    outline-color: #2743FD;
+    color: rgb(58, 58, 58);
+  }
+
+  #TransacButtons {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+
+
+
+  #TransacButton1 {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+  }
+
+  #TransacButton1:hover {
+    box-shadow: 0 0 5px #000;
+  }
+
+  #TransacButton2 {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #TransacButton2:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+  #TransacButton1Text {
+    color: #3F3951;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #TransacButton2Text {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #MoneySent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  #MoneySentImg {
+    padding: 8px;
+    border-radius: 84px;
+    background: #DBDBFF;
+  }
+
+  #MoneySentText {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+
+  .AccountNumberTextClass {
+    color: rgba(58, 58, 58, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #SuccessSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 92.5%;
+    text-wrap: nowrap;
+  }
+
+  #Date-Time-Money {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #DTM1 {
+    color: #3A3A3A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #DTM2 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #SuccessText {
+    display: flex;
+    align-items: center;
+    color: #10A230;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background: #E8FDEC;
+  }
+
+
+  #TransferModal5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+    height: 450px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+  #DownloadButton {
+    cursor: pointer;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #DownloadButton:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+
+  #DownloadButtonText {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #TransactionDetails {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 8px;
+    background: #F7F6F9;
+  }
+
+
+  #AccountDetails {
+    display: flex;
+    justify-content: space-between;
+    color: #6E638D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-wrap: nowrap;
+  }
+
+
+  .ClassDesign {
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .DashBoardImgClass2 {
+    display: none;
+  }
+
+  .TransactionImgClass2 {
+    display: none;
+  }
+
+  .CurrencyImgClass2 {
+    display: none;
+  }
+
+  .AccountImgClass2 {
+    display: none;
+  }
+
+
+
+
+  #SwapcurrencySec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    width: 95%;
+  }
+
+  @keyframes Scale-In {
+    0% {
+      transform: scale(0%);
+    }
+
+    100% {
+      transform: scale(100%);
+    }
+  }
+
+
+  #AccountSec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    width: 95%;
+  }
+
+  #From-To-Popup {
+    display: inline-flex;
+    padding: 4%;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    border-radius: 12px;
+    background: #FFF;
+  }
+
+  #SCSSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+    left: 3%;
+    width: 100%;
+  }
+
+  #SCSSec2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #SCSSec3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  #FromFieldDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #FromField {
+    width: 100%;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 43px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    background: url('./images/solar_dollar-bold.png') 10px no-repeat #F6F6FF;
+  }
+
+
+
+  #ToFieldDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #ToField {
+    width: 100%;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 93px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    background: url('./images/ant-design_pound-circle-filled.png') 10px no-repeat #F6F6FF;
+  }
+
+  #AvailableBalance {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: #DCDCDC;
+    width: 220px;
+    color: #767676;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #Balance {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #Max {
+    position: relative;
+    padding: 8px;
+    right: 60px;
+    border-radius: 12px;
+    background: #DCDCDC;
+    color: #3A3A3A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+  #SwapDiv {
+    padding: 10px;
+    border-radius: 176.923px;
+    background: #F6F6FF;
+  }
+
+  #Drop {
+    position: relative;
+    right: 85%;
+  }
+
+  #SwapCurrencyButton {
+    cursor: pointer;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 12px;
+    background: rgba(39, 67, 253, 0.60);
+  }
+
+  #SwapCurrencyButton:hover {
+    background: #2743FD;
+    box-shadow: 0 0 5px #000;
+  }
+
+  #MyAccountText {
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #ProfileSec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #ProfilePic {
+    width: 100px;
+  }
+
+  #Settings {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 92.5%;
+  }
+
+  #AccountSettings {
+    cursor: pointer;
+    display: flex;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    width: 92.5%;
+  }
+
+  #AccountSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #AccountSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+  #CardSettings {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #CardSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #CardSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+
+  #NotificationSettings {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #NotificationSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #NotificationSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+
+  #PasswordSettings {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #PasswordSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #PasswordSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+  #Support {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #Support:hover {
+    border: 1.5px solid #000;
+  }
+
+  #SupportText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+
+
+  #ContactUs {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #ContactUs:hover {
+    border: 1.5px solid #000;
+  }
+
+  #ContactUsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+
+
+  #TodayRateSettings {
+    cursor: pointer;
+    display: flex;
+    width: 92.5%;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  #TodayRateSettings:hover {
+    border: 1.5px solid #000;
+  }
+
+  #TodayRateSettingsText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #TransactionSec {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-name: Scale-In;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    overflow-x: scroll;
+    width: 95%;
+  }
+
+  #TransOrder {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+  }
+
+
+  #TransSec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 14.082px;
+    background: #FFF;
+    box-shadow: 0.939px -0.939px 0px 0px rgba(0, 0, 0, 0.08) inset;
+    text-wrap: nowrap;
+  }
+
+  #TransHeader {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-self: stretch;
+    justify-content: space-between;
+    box-shadow: 0px -0.939px 0px 0px #E4E4EF inset;
+  }
+
+  #HeaderDivider {
+    background: var(--White, #FFF);
+    box-shadow: 0px -0.939px 0px 0px #E4E4EF inset;
+  }
+
+  #ReceipientName {
+    display: flex;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    flex: 1 0 0;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #Amount {
+    display: flex;
+    width: 112.655px;
+    padding: 18.776px 45.062px;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  #ReferenceID {
+    display: flex;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #Status {
+    display: flex;
+    width: 127.676px;
+    padding: 18.776px 15.021px;
+    justify-content: center;
+    align-items: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  #TransDate {
+    display: flex;
+    width: 151.146px;
+    height: 56.328px;
+    padding: 18.776px 15.021px;
+    align-items: center;
+    justify-content: center;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: bold;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  .TransCont {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-self: stretch;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+  .ReceipientNameSub {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .AmountSub {
+    display: flex;
+    width: 112.655px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 45.062px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  .ReferenceIDSub {
+    display: flex;
+    width: 135.186px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+
+  .StatusSub {
+    display: flex;
+    width: 127.676px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  .StatusSubText {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #FDE8E8;
+    color: #EA2E2E;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .StatusSubText2 {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #E8FDEC;
+    color: #10A230;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+
+  .StatusSubText3 {
+    display: flex;
+    padding: 3.755px 22.531px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.51px;
+    background: #FDFBE8;
+    color: #A29410;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .TransDateSub {
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18.776px 15.021px;
+    box-shadow: 0px -1px 0px 0px #E4E4EF inset;
+  }
+
+  #TransSec2 {
+    display: flex;
+    width: 250.658px;
+    padding: 18.776px 22.531px 22.531px 22.531px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 14.082px;
+    background: #FFF;
+    box-shadow: 0.939px -0.939px 0px 0px rgba(0, 0, 0, 0.08) inset;
+  }
+
+  #Wallet-AvailableBalance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37.552px;
+    text-wrap: nowrap;
+  }
+
+  #WalletText {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  #AvailableBalanceText {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.021px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.075px;
+  }
+
+  #USD {
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11.266px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #BalanceSec {
+    display: flex;
+    width: 250.658px;
+    padding: 15.021px 22.531px 22.531px 22.531px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30.041px;
+    background: #FFF;
+  }
+
+  #BalanceSubSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.51px;
+  }
+
+  #TransBalanceText {
+    color: #3F3951;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30.041px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+  }
+
+  #TransBalanceText2 {
+    color: #3F3951;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18.776px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  #Refresh {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    color: #736CEE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #BalanceSubSec2 {
+    display: flex;
+    align-items: center;
+    gap: 30.041px;
+  }
+
+  #DepositSec {
+    display: flex;
+    width: 60.083px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.755px;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  #BalanceTransferSec {
+    display: flex;
+    width: 60.083px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.755px;
+    color: #3F3951;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13.143px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #DepositSecImg {
+    cursor: pointer;
+    display: flex;
+    padding: 11.266px;
+    align-items: flex-start;
+    gap: 9.388px;
+    border-radius: 56.328px;
+    background: rgba(115, 108, 238, 0.20);
+  }
+
+  #DepositSecImg:hover {
+    box-shadow: 0 0 2px #000;
+  }
+
+  #TransferSecImg {
+    cursor: pointer;
+    display: flex;
+    padding: 11.266px;
+    align-items: flex-start;
+    gap: 9.388px;
+    border-radius: 56.328px;
+    background: rgba(115, 108, 238, 0.20);
+  }
+
+  #TransferSecImg:hover {
+    box-shadow: 0 0 2px #000;
+  }
+
+
+  #TransSec3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #NumberingSec {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #PreviousArrowImg {
+    cursor: pointer;
+  }
+
+  #NextArrowImg {
+    cursor: pointer;
+  }
+
+  #Numbers {
+    cursor: pointer;
+    display: flex;
+    width: 36px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #736CEE;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #Numbers2 {
+    cursor: pointer;
+    display: flex;
+    width: 36px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: none;
+    color: #6E638D;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #Numbers2:hover {
+    background: #736cee81;
+  }
+
+  #NumberElipses {
+    display: flex;
+    align-items: center;
+    color: #6E638D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .TransferModal6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 24px;
+    row-gap: 30px;
+  }
+
+
+  #SettingsModal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  .SettingsModalButton {
+    cursor: pointer;
+    display: flex;
+    width: 400px;
+    height: 1px;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+  }
+
+  .SettingsModalButton:hover {
+    border: 1.5px solid #000;
+  }
+
+  .SettingsModalButtonText {
+    color: rgba(58, 58, 58, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .CloseImgDiv {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  #BasicDataDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+  }
+
+  #BasicDataSec1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #BasicDataSec2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #BasicHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #BasicHeaderText {
+    color: #2743FD;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #BasicHeaderText2 {
+    color: #3A3A3A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  #ChangePic {
+    color: #303030;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .BasicDataForm {
+    padding: 8px, 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    background: #E1E1E1;
+    border: none;
+    width: 300px;
+    height: 34px;
+    color: #3A3A3A;
+  }
+
+  .BasicDataLabel {
+    display: flex;
+    justify-content: flex-start;
+    color: #3A3A3A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+  #BasicDataInputField {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #BasicDataSubmitBut {
+    cursor: pointer;
+    background: #2743fd81;
+    width: 100%;
+    height: 44px;
+    padding: 8px, 10px, 8px, 10px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+  }
+
+
+  #BasicDataSubmitBut:hover {
+    background: #2743FD;
+  }
 }
 
 
@@ -3837,9 +6416,9 @@ body {
 
 
   #DashMain {
-    left: 27%;
-    width: 70%;
-    height: 1400px;
+    left: 240px;
+    width: 93%;
+    height: 100%;
   }
 }
 
@@ -3851,13 +6430,9 @@ body {
 
 
   #DashMain {
-    left: 29%;
-    width: 70%;
-    height: 1400px;
-  }
-
-  #DashTopSec {
-    gap: 60%;
+    left: 240px;
+    width: 87%;
+    height: 100%;
   }
 }
 
@@ -3868,9 +6443,9 @@ body {
 
 
   #DashMain {
-    left: 33%;
-    width: 65%;
-    height: 1900px;
+    left: 240px;
+    width: 86%;
+    height: 100%;
   }
 }
 
@@ -3907,7 +6482,7 @@ body {
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 650px;
+    height: 670px;
   }
 
 
@@ -4226,10 +6801,15 @@ body {
 
 
 @media only screen and (max-width:690px) {
+  #DashContainer {
+    width: 100%;
+  }
+
   #DashMain {
     left: 0%;
     width: 100%;
-    height: 1900px;
+    height: 100%;
+    padding-right: 10px;
   }
 
   #FixedBar {
@@ -4250,9 +6830,6 @@ body {
     box-shadow: 0 0 5px #000;
   }
 
-  #DashTopSec {
-    gap: 30%;
-  }
 
   #SideBarDeactivator {
     display: none;
@@ -4271,47 +6848,96 @@ body {
     justify-content: center;
   }
 
+  #SwapcurrencySec {
+    justify-content: center;
+  }
+
+
+  #AccountSec {
+    justify-content: center;
+  }
+
+  #Card1 {
+    width: 100%;
+  }
+
   #Card2 {
-    width: 350px;
+    width: 100%;
+  }
+
+  #Card3 {
+    width: 100%;
   }
 
   #Card4 {
-    width: 350px;
+    width: 100%;
   }
 
   #Card5 {
-    width: 350px;
+    width: 100%;
   }
 
-  #Card5Sec {
-    left: 110px;
+  #MobileAppText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  #Card5Sec2 {
+  #FirstHalf {
+    position: relative;
     top: 20px;
-    left: 110px;
+    color: #4A4A4A;
+    font-size: 19.952px;
+    font-style: normal;
+    font-weight: 400;
   }
 
-  #Card5Sec3 {
-    left: 90px;
-    top: 10px;
+  #LastHalf {
+    color: #4A4A4A;
+    font-size: 19.952px;
+    font-style: normal;
+    font-weight: 600;
   }
 
-  #ComingSoonText {
+  #PlaneImg {
     position: relative;
     bottom: 40px;
+  }
+
+
+  #ComingSoonText {
+    text-align: center;
     white-space: nowrap;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    background: url('./images/Vector\ 3.png') 0 0 no-repeat;
+    background-size: auto;
+    padding: 15px;
+    position: relative;
+    right: 5%;
   }
+
 
 
   #Card5Sec4 {
+    position: relative;
+    left: 0%;
+    width: 50%;
+  }
+
+
+  #ComingSoonText {
+    position: relative;
+    bottom: 10px;
+  }
+
+
+  /* #Card5Sec4 {
     top: 12px;
     left: 100px;
-  }
+  } */
 
   #C2Cont2 {
     column-gap: 12px;
@@ -4323,11 +6949,12 @@ body {
     flex-shrink: 1;
   }
 
+
 }
 
 @media only screen and (max-width:500px) {
   #DashMain {
-    width: 520px;
+    width: 100%;
   }
 
   #ModalCont {
@@ -4338,7 +6965,7 @@ body {
     width: 90%;
   }
 
-  #Card5Sec {
+  /* #Card5Sec {
     width: 0;
   }
 
@@ -4348,38 +6975,51 @@ body {
 
   #Card5Sec3 {
     width: 0;
-  }
+  } */
 
   #TransferModal {
-    width: 100%;
-    height: 100%;
+    width: 92%;
   }
 
   #TransferModal2 {
-    width: 100%;
-    height: 100%;
+    width: 92%;
   }
 
   #TransferModal3 {
+    width: 92%;
+  }
+
+  #TransferModal4 {
+    width: 92%;
+  }
+
+
+  #TransferModal5 {
+    width: 92%;
+  }
+
+  .TransferModal6 {
+    width: 92%;
+  }
+
+  .SettingsModalButton {
     width: 100%;
   }
 }
 
 @media only screen and (max-width:380px) {
-  #DashTopSec {
-    gap: 25%;
-  }
 
   #MainSec {
     left: 0;
   }
 
-  #TransferSec {
-    column-gap: 250px;
+  #SwapcurrencySec {
+    left: 0;
   }
 
-  #Transfer2Sec {
-    column-gap: 190px;
+
+  #AccountSec {
+    left: 0;
   }
 
 
