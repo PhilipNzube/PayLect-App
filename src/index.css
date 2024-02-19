@@ -3325,7 +3325,19 @@ body {
     font-weight: 600;
   }
 
+#UpdateProfileImg{
+  width: 35px;
+}
+
+  #UPIText {
+    cursor: pointer;
+  }
+
   #ChangePic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
     color: #303030;
     font-size: 13px;
     font-style: normal;
@@ -6353,7 +6365,19 @@ body {
     font-weight: 600;
   }
 
+#UpdateProfileImg{
+  width: 35px;
+}
+
+  #UPIText {
+    cursor: pointer;
+  }
+
   #ChangePic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
     color: #303030;
     font-size: 13px;
     font-style: normal;

@@ -6,8 +6,9 @@ import AccountSettingsImg from '../images/People3.png';
 import NotificationSettingsImg from '../images/mingcute_notification-fill.png';
 import PasswordSettingsImg from '../images/mdi_password.png';
 import ContactUsImg from '../images/ion_call.png';
-import USQImg from '../images/mdi_password.png';
-import BVNSettingsImg from '../images/mdi_password.png';
+import USQImg from '../images/mynaui_key.png';
+import BVNSettingsImg from '../images/streamline_padlock-square-1.png';
+import UpdateProfileImg from '../images/Group 47700.png';
 
 export default function PopUp() {
 
@@ -392,7 +393,7 @@ export default function PopUp() {
                         <div id="BasicDataDiv">
                             <div id="BasicDataSec1">
                                 <div id="BasicHeader"><div id="BasicHeaderText">Basic Data</div> <div id="BasicHeaderText2">Change your avatar</div></div>
-                                <div id="ChangePic">Tap to change</div>
+                                <div id="ChangePic"><img id="UpdateProfileImg" src={UpdateProfileImg} alt="ProfileImg"/><div id="UPIText">Tap to change</div></div>
                             </div>
 
                             <form id="BasicDataSec2">
