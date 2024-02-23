@@ -7,9 +7,7 @@ export default function ForgotPassword() {
 
     return (
         <>
-            <div id="Elilipse"></div>
             <p id="Nothing" onClick={GoBackToSignIn}>NOTHING HERE TO SEE!!</p>
-            <div id="Elilipse2"></div>
         </>
     )
 }

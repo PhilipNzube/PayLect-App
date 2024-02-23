@@ -5,8 +5,6 @@ import DepositImg from '../images/Group 1452.png';
 import AnalysisImg from '../images/Chevron2.png';
 import IncomeImg from '../images/Card.png';
 import RightImg from '../images/Right-Arrow 2.png';
-import TransacImg from '../images/Ellipse 4.png';
-import TransacImg2 from '../images/uil_wallet.png';
 import CardDesignImg from '../images/Vector1.png';
 import CardDesignImg2 from '../images/Vector2.png';
 import CardDesignImg3 from '../images/Chevron.png';
@@ -18,6 +16,7 @@ import BellImg from '../images/notification 3d 1.png';
 // import DropDownImg from '../images/chevron-down.png';
 import PlaneLinesImg from '../images/Vector 4.png';
 import PlaneImg from '../images/Vector4.png';
+import TransacActivity from '../components/TransacActivity';
 
 export default function DashBoardPage() {
     const OpenModal1 = () => {
@@ -64,60 +63,49 @@ export default function DashBoardPage() {
                     </div>
 
                     <div id="TransacParent">
-                        <div id="C3Cont2">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">10/03/23-12:09</span></span>
-                            </span>
-                            <span id="GreenStat">+5,560</span>
-                        </div>
+                        <TransacActivity
+                            Name="Sandra Chima"
+                            Date="10/03/23-12:09"
+                            Credit="true"
+                            Stat="+5,560"
+                        />
 
-                        <div id="C3Cont3">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Adeola Steve</span><span id="Date">05/03/23-16:59</span></span>
-                            </span>
-                            <span id="Stat">-1125</span>
-                        </div>
+                        <TransacActivity
+                            Name="Adeola Steve"
+                            Date="05/03/23-16:59"
+                            Credit="false"
+                            Stat="-1125"
+                        />
 
-                        <div id="C3Cont4">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Chris Zach</span><span id="Date">26/02/23-1:09</span></span>
-                            </span>
-                            <div id="Stat">-21500</div>
-                        </div>
+                        <TransacActivity
+                            Name="Chris Zach"
+                            Date="26/02/23-1:09"
+                            Credit="false"
+                            Stat="-21500"
+                        />
 
-                        <div id="C3Cont5">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Sandra Chima</span><span id="Date">18/02/23-13:09</span></span>
-                            </span>
-                            <span id="GreenStat">+4500</span>
-                        </div>
+                        <TransacActivity
+                            Name="Sandra Chima"
+                            Date="18/02/23-13:09"
+                            Credit="true"
+                            Stat="+4500"
+                        />
 
 
-                        <div id="C3Cont6">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Mike Charles</span><span id="Date">12/01/23-19:40</span></span>
-                            </span>
-                            <span id="GreenStat">+91000</span>
-                        </div>
+                        <TransacActivity
+                            Name="Mike Charles"
+                            Date="12/01/23-19:40"
+                            Credit="true"
+                            Stat="+91000"
+                        />
 
-                        <div id="C3Cont7">
-                            <span id="ImgAndNameAndDate">
-                                <span><img alt='TransacImg' id="TransacImg" src={TransacImg} />
-                                    <img alt='TransacImg2' id="TransacImg2" src={TransacImg2} /></span>
-                                <span id="NameAndDate"><span id="Name">Nikita Pearl</span><span id="Date">10/01/23-09:19</span></span>
-                            </span>
-                            <span id="Stat">-2400</span>
-                        </div>
+
+                        <TransacActivity
+                            Name="Nikita Pearl"
+                            Date="10/01/23-09:19"
+                            Credit="false"
+                            Stat="-2400"
+                        />
                     </div>
                 </div>
                 <div id="Card4">

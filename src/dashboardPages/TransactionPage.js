@@ -3,8 +3,17 @@ import DepositImg2 from '../images/Group 1452-1.png';
 import RefreshImg from '../images/Frame 125.png';
 import PreviousArrowImg from '../images/arrow-up-s-line 3.png';
 import NextArrowImg from '../images/arrow-up-s-line 4.png';
+import Transactions from '../components/Transactions';
+import PageNumbering from '../components/PageNumbering';
 
 export default function TransactionPage() {
+    {/*These variables might make things easier when backend is involved*/ }
+    // let ReceipientNameSub;
+    // let AmountSub;
+    // let ReferenceIDSub;
+    // let StatusSubTextFailure;
+    // let TransDateSub;
+
     return (
         <>
 
@@ -20,98 +29,99 @@ export default function TransactionPage() {
                             <div id="TransDate">Date</div>
                         </div>
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Darrell Steward</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
-
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Kristin Watson</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        {/*This might be easier when backend is involved*/}
+                        {/* <Transactions
+                            ReceipientNameSub={ReceipientNameSub}
+                            AmountSub={AmountSub}
+                            ReferenceIDSub={ReferenceIDSub}
+                            StatusSubTextFailure={StatusSubTextFailure}
+                            TransDateSub={TransDateSub}
+                        /> */}
 
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Ronald Richards</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText3">Pending</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Darrell Steward"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="failure"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
+
+                        <Transactions
+                            ReceipientNameSub="Kristin Watson"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="success"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
-
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Floyd Miles</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText3">Pending</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
-
-
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Annette Black</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Floyd Miles"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="pending"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Arlene McCoy</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Annette Black"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="failure"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
+
+                        <Transactions
+                            ReceipientNameSub="Arlene McCoy"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="success"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
-
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Marvin McKinney</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText">Failure</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Marvin McKinney"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="failure"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Theresa Webb</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Theresa Webb"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="success"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Devon Lane</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Devon Lane"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="success"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
 
 
 
-                        <div className="TransCont">
-                            <div className="ReceipientNameSub">Dianne Russell</div>
-                            <div className="AmountSub">$396.84</div>
-                            <div className="ReferenceIDSub">0123456789</div>
-                            <div className="StatusSub"><div className="StatusSubText2">Success</div></div>
-                            <div className="TransDateSub">8 Mar 2022 11:57pm</div>
-                        </div>
+                        <Transactions
+                            ReceipientNameSub="Dianne Russell"
+                            AmountSub="$396.84"
+                            ReferenceIDSub="0123456789"
+                            StatusSubText="success"
+                            TransDateSub="8 Mar 2022 11:57pm"
+                        />
+
+
+
                     </div>
 
                     <div id="TransSec2">
@@ -151,11 +161,11 @@ export default function TransactionPage() {
                 <div id="TransSec3">
                     <img id="PreviousArrowImg" src={PreviousArrowImg} alt="PreviousArrowImg" />
                     <div id="NumberingSec">
-                        <div id="Numbers">1</div>
-                        <div id="Numbers2">2</div>
-                        <div id="Numbers2">3</div>
+                        <PageNumbering highlighted="true" value="1" />
+                        <PageNumbering highlighted="false" value="2" />
+                        <PageNumbering highlighted="false" value="3" />
                         <div id="NumberElipses">.....</div>
-                        <div id="Numbers2">22</div>
+                        <PageNumbering highlighted="false" value="22" />
                     </div>
 
                     <img id="NextArrowImg" src={NextArrowImg} alt="NextArrowImg" />

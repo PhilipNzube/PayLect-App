@@ -7,6 +7,15 @@ body {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2a5ee4;
+  border-radius: 5px;
+}
+
 @media only screen and (min-width:780px) {
 
   #FixedBar {
@@ -902,44 +911,6 @@ body {
   }
 
   #C3Cont2 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #C3Cont3 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #C3Cont4 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont5 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont6 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont7 {
     display: flex;
     align-self: stretch;
     align-items: center;
@@ -2788,6 +2759,10 @@ body {
     width: 95%;
   }
 
+  #TransactionSec::-webkit-scrollbar {
+    height: 5px;
+  }
+
   #TransOrder {
     display: flex;
     flex-direction: row;
@@ -3325,9 +3300,9 @@ body {
     font-weight: 600;
   }
 
-#UpdateProfileImg{
-  width: 35px;
-}
+  #UpdateProfileImg {
+    width: 35px;
+  }
 
   #UPIText {
     cursor: pointer;
@@ -3942,44 +3917,6 @@ body {
   }
 
   #C3Cont2 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #C3Cont3 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #C3Cont4 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont5 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont6 {
-    display: flex;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  #C3Cont7 {
     display: flex;
     align-self: stretch;
     align-items: center;
@@ -5828,6 +5765,10 @@ body {
     width: 95%;
   }
 
+  #TransactionSec::-webkit-scrollbar {
+    height: 5px;
+  }
+
   #TransOrder {
     display: flex;
     flex-direction: row;
@@ -6365,9 +6306,9 @@ body {
     font-weight: 600;
   }
 
-#UpdateProfileImg{
-  width: 35px;
-}
+  #UpdateProfileImg {
+    width: 35px;
+  }
 
   #UPIText {
     cursor: pointer;

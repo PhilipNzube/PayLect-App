@@ -12,6 +12,7 @@ import SwapCurrencyPage from './dashboardPages/SwapCurrencyPage';
 import AnalyticsPage from './dashboardPages/AnalyticsPage';
 import AccountPage from './dashboardPages/AccountPage';
 import './index.css';
+import AuthenticationPage from './Pages/AuthenticationPage.js';
 // import swDev from './swDev.js';
 
 
@@ -20,9 +21,11 @@ function START() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<CreateAccount />} />
-          <Route path="/SignIn" element={<SignIn />} />
-          <Route path="/ForgotPassword" element={<ForgotPassword />} />
+          <Route path="/" element={<AuthenticationPage/>}>
+            <Route index element={<CreateAccount />} />
+            <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/ForgotPassword" element={<ForgotPassword />} />
+          </Route>
           <Route path="/DashBoard" element={<DashBoard />} >
             <Route path="/DashBoard/" element={<DashBoardPage />} />
             <Route path="/DashBoard/TransactionPage" element={<TransactionPage />} />

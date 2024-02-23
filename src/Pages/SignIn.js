@@ -1,4 +1,3 @@
-import Logo from '../images/logo.png';
 import { useNavigate } from 'react-router-dom';
 
 export default function SignIn() {
@@ -16,11 +15,6 @@ export default function SignIn() {
     }
     return (
         <>
-            <div id="Elilipse"></div>
-            <div id="ModalBody">
-                <div id="LOGO">
-                    <img alt="" src={Logo} />
-                </div>
                 <div id="ModalCont2">
                     <div id="HeaderTexts">
                         <p id="HeaderText">Sign into your Account</p>
@@ -48,8 +42,6 @@ export default function SignIn() {
                 </div>
                 <p id="Register">Don't have an account? <span id="RegisterLink" onClick={GoToCreateAccount}>Register</span></p>
                 <p id="ForgotPSWLink" onClick={GoToForgotPassword}>Forgot Password?</p>
-            </div>
-            <div id="Elilipse2"></div>
         </>
     )
 }

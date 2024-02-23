@@ -81,6 +81,11 @@ export default function PopUp() {
     const OpenModal9 = () => {
         document.getElementById("ModalActivator8").style.display = "block";
     }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
     return (
         <>
             <div id="ModalActivator" className="ModalActivatorClass">
@@ -393,28 +398,28 @@ export default function PopUp() {
                         <div id="BasicDataDiv">
                             <div id="BasicDataSec1">
                                 <div id="BasicHeader"><div id="BasicHeaderText">Basic Data</div> <div id="BasicHeaderText2">Change your avatar</div></div>
-                                <div id="ChangePic"><img id="UpdateProfileImg" src={UpdateProfileImg} alt="ProfileImg"/><div id="UPIText">Tap to change</div></div>
+                                <div id="ChangePic"><img id="UpdateProfileImg" src={UpdateProfileImg} alt="ProfileImg" /><div id="UPIText">Tap to change</div></div>
                             </div>
 
-                            <form id="BasicDataSec2">
+                            <form id="BasicDataSec2" onSubmit={handleSubmit}>
                                 <div id="BasicDataInputField">
                                     <label className="BasicDataLabel" for="BasicDataFirstName">First Name</label>
-                                    <input className="BasicDataForm" type="text" id="BasicDataFirstName" placeholder='First Name' />
+                                    <input className="BasicDataForm" type="text" id="BasicDataFirstName" placeholder='First Name' required />
                                 </div>
 
                                 <div id="BasicDataInputField">
                                     <label className="BasicDataLabel" for="BasicDataLastName">Last Name</label>
-                                    <input className="BasicDataForm" type="text" id="BasicDataLastName" placeholder='Last Name' />
+                                    <input className="BasicDataForm" type="text" id="BasicDataLastName" placeholder='Last Name' required />
                                 </div>
 
                                 <div id="BasicDataInputField">
                                     <label className="BasicDataLabel" for="BasicDataEmail">Email Address</label>
-                                    <input className="BasicDataForm" type="email" id="BasicDataEmail" placeholder='Email' />
+                                    <input className="BasicDataForm" type="email" id="BasicDataEmail" placeholder='Email' required />
                                 </div>
 
                                 <div id="BasicDataInputField">
                                     <label className="BasicDataLabel" for="BasicDataPhone">Phone Number</label>
-                                    <input className="BasicDataForm" type="number" id="BasicDataPhone" placeholder='Phone Number' />
+                                    <input className="BasicDataForm" type="number" id="BasicDataPhone" placeholder='Phone Number' required />
                                 </div>
 
                                 <input id="BasicDataSubmitBut" type="submit" value="Update Profile" />
